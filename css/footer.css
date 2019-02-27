@@ -1,0 +1,44 @@
+.footer {
+    width: 100%;
+    height: 44px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.footer__left-side {
+    margin-left: 44px;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+}
+
+.footer__left-side > p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #515151;
+    font-family: "Tahoma";
+}
+
+.footer__right-side {
+    margin-right: 17px;
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+.footer__right-side > ul > li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.footer__right-side > ul > li > a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #515151;
+    font-family: "Tahoma";
+    text-align: right;
+}
+
+.footer__right-side > ul > li > a:hover {
+    color: #000;
+}

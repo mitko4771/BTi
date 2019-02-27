@@ -1,0 +1,94 @@
+.header {
+    height: 110px;
+    width: 100%;
+    position: relative;
+    background-color: #ccc;
+}
+
+.header__navbar {
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+}
+
+.drop-down {
+    display: inline-block;
+}
+
+.drop-down__btn {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+}
+
+.drop-downbtn:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.drop-down__content {
+    display: none;
+    width: 135px;
+    padding: 0 1%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.drop-down__content.show {
+    display: block !important;
+    position: absolute;
+    margin: auto;
+}
+
+.drop-down__content > a {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #fff;
+    line-height: 1.4;
+}
+
+.drop-down__content > a:last-child {
+    border-bottom: none;
+}
+
+.drop-down__content > a:hover {
+    color: rgb(233, 194, 20);
+}
+
+.header__flags {
+    width: 82px;
+    height: 26px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+}
+
+.header__flags > div > a  {
+    position: relative;
+}
+
+.header__flags > div > a:hover {
+    opacity: 0.5;
+}
+
+.header__flags > div {
+    display: inline-block;
+    height: 26px;
+    cursor: pointer;
+}
+
+.header__flag--flag {
+    border: 1px solid #fff;
+}
